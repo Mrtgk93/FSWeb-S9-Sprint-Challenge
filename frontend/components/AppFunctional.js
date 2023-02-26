@@ -2,12 +2,6 @@ import axios from "axios";
 import { response } from "msw";
 import React, { useState } from "react";
 
-// önerilen başlangıç stateleri
-const initialMessage = "";
-const initialEmail = "";
-const initialSteps = 0;
-const initialIndex = 4; //  "B" nin bulunduğu indexi
-
 export default function AppFunctional(props) {
   // AŞAĞIDAKİ HELPERLAR SADECE ÖNERİDİR.
   // Bunları silip kendi mantığınızla sıfırdan geliştirebilirsiniz.
